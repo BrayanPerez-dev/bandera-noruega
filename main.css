@@ -1,0 +1,43 @@
+:root {
+    --second-color: #FFFFFF;
+    --third-color:#003087;
+  }
+  
+.container{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 40vw;
+    background-color: #C8102E;
+}
+
+.first-vertical-cross{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    margin-left: 25%;
+    background-color: var(--second-color);
+}
+.second-vertical-cross{
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin-left: 24%;
+    background-color: var(--third-color);
+} 
+.first-horizontal-cross{
+    top: 50%;
+    margin-top: -50px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: var(--second-color);
+}
+.second-horizontal-cross{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 24%;
+    background-color:var(--third-color);
+} 
